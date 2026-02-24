@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: user-service
+  profile:
+    active: dev
+
+  # ?????? ?? (PostgreSQL)
+  datasource:
+    url: jdbc:postgresql://localhost:5432/animal_db
+    username: your_username
+    password: your_password
+    driver-class-name: org.postgresql.Driver
+
+  # JPA / ORM ??
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect

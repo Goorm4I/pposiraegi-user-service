@@ -1,0 +1,27 @@
+### JetBrains (IntelliJ IDEA) ###
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+gen/
+
+### 빌드 결과물 ###
+**/build/
+**/bin/
+**/out/
+
+### 로그 및 임시 파일 ###
+**/logs/
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+### Gradle 전용 ###
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+### 기타 ###
+HELP.md
